@@ -1,0 +1,107 @@
+/*** MOBILE ***/
+
+.contact{
+    padding: 100px 0 30px;
+    position: relative;
+    background-color: #F7CC4B;
+}
+
+.contact::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    /*left: 0;*/
+    right: 0;
+    height: 40px;
+
+    border-bottom: 40px solid transparent;
+    border-right: 100vw solid #fff;
+}
+
+.contact .section-title{
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.contact .section-lead{
+    margin-bottom: 62px;
+    color: #222;
+}
+
+.contact .form-control,
+.constact .form-control:focus{
+    padding: 0 1rem;
+    background-color: #F7CC4B;
+    border: 2px solid #fff;
+    box-shadow: none;
+    line-height: 50px;
+    color: #fff;
+}
+
+.contact .form-control::placeholder{
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: -0.25px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.contact .btn-primary,
+.contact .btn-primary:focus{
+    padding: 0;
+    width: 60%;
+    box-shadow: none;
+    line-height: 50px;
+    background-color: #222;
+    color: #fff;
+}
+
+/*** SM - 576 
+@media(min-width:576px){
+}***/
+
+/*** MD - 768 ***/
+@media(min-width:768px){
+    .contact{
+        padding: 120px 0 50px;
+    }
+
+    .contact::before{
+        height: 60px;
+
+        border-bottom: 60px solid transparent;
+        border-right: 100vw solid #fff;
+    }
+}
+
+/*** LG - 992 ***/
+@media(min-width:992px){
+    .contact{
+        padding: 140px 0 70px;
+    }
+    
+    .contact .btn-primary,
+    .contact .btn-primary:focus{
+        width: 100%;
+    }
+}
+
+/*** XL - 1200 ***/
+@media(min-width:1200px){
+    .contact{
+        padding: 160px 0 92px;
+    }
+
+    .contact::before{
+        height: 80px;
+
+        border-bottom: 80px solid transparent;
+        border-right: 100vw solid #fff;
+    }
+}
+
+/*** XXL - 1400 
+@media(min-width:1400px){
+} ***/

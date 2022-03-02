@@ -1,0 +1,116 @@
+/*** MOBILE ***/
+.paralax{
+    padding: 140px 0 100px;
+
+    position: relative;
+
+    background-attachment: fixed; /*ne radi zbog skew*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralax::before{
+    content: '';
+    display: block;
+    z-index: 1;
+
+    position: absolute;
+    top: 0;
+    /*left: 0;*/
+    right: 0;
+    height: 40px;
+
+    border-bottom: 40px solid transparent;
+    border-right: 100vw solid #fff;
+}
+
+.paralax::after{
+    content: '';
+    display: block;
+    z-index: 1;
+
+    position: absolute;
+    bottom: 0;
+    /*left: 0;*/
+    right: 0;
+    height: 40px;
+
+    border-top: 40px solid transparent;
+    border-left: 100vw solid #fff;
+}
+
+.paralax .paralax__content .section-title{
+    font-weight: 300;
+    color:#fff;
+}
+
+.paralax .paralax__content .section-lead{
+    margin-bottom: 54px;
+}
+
+.paralax .paralax__content .paralax__desc{
+    margin-bottom: 48px;
+    color:#B1B1B1;
+}
+
+/*** SM - 576 
+@media(min-width:576px){
+}***/
+
+/*** MD - 768 ***/
+@media(min-width:768px){
+    .paralax{
+        padding: 180px 0 140px;
+    }
+    
+    .paralax::before{
+        height: 60px;
+
+        border-bottom: 60px solid transparent;
+        border-right: 100vw solid #fff;
+    }
+
+    .paralax::after{
+        height: 60px;
+
+        border-top: 60px solid transparent;
+        border-left: 100vw solid #fff;
+    }
+}
+
+/*** LG - 992 ***/
+@media(min-width:992px){
+    .paralax{
+        padding: 220px 0 180px;
+    }
+
+    .paralax__content{
+        max-width: 573px;
+    }
+}
+
+/*** XL - 1200 ***/
+@media(min-width:1200px){
+    .paralax{
+        padding: 260px 0 220px;
+    }
+    
+    .paralax::before{
+        height: 80px;
+
+        border-bottom: 80px solid transparent;
+        border-right: 100vw solid #fff;
+    }
+
+    .paralax::after{
+        height: 80px;
+
+        border-top: 80px solid transparent;
+        border-left: 100vw solid #fff;
+    }
+}
+
+/*** XXL - 1400 
+@media(min-width:1400px){
+}***/

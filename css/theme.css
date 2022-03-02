@@ -1,0 +1,167 @@
+/*** GLOBAL STYLES ***/
+/*** MOBILE ***/
+body{
+    font:400 13px 'Roboto',sans-serif;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    color: #B1B1B1;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    margin: 0;
+    font: 700 40px 'Roboto',sans-serif;
+}
+
+.section-title{
+    margin-bottom: 22px;
+    font: 100 40px 'Roboto', sans-serif;
+    line-height: 44px;
+    letter-spacing: -0.25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222;
+}
+
+.job-title{
+    font: 400 16px "Myriad Pro", sans-serif;
+    line-height: 28px;
+    color: #F7CC4B;
+}
+
+.section-lead{
+    font: 17px 'Myriad Pro', sans-serif;
+    line-height: 21px;
+    letter-spacing: -0.25px;
+    color: #F7CC4B;
+
+    text-align: center;
+}
+
+.team__member-name{
+    margin-bottom: 8px;
+    font: 300 20px 'Myriad Pro', sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222;
+}
+
+.team__member-position{
+    font: 300 16px 'Roboto', sans-serif;
+    line-height: 22px;
+    text-align: center;
+    color: #F7CC4B;
+}
+
+img{
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.find-out-more-btn{
+    display: inline-block;
+    line-height: 46px;
+    padding: 0 40px;
+
+    border: 1px solid #F7CC4B;
+    color: #F7CC4B;
+    transition: 0.2s ease-out;
+}
+
+.find-out-more-btn:hover{
+    background-color: #F7CC4B;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/*** SM - 576 ***/
+@media(min-width:576px){
+
+}
+
+/*** MD - 768 ***/
+@media(min-width:768px){
+
+    body{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .section-title{
+        margin-bottom: 10px;
+        font-size: 45px;
+        line-height: 49px;
+    }
+
+    .section-lead{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .team__member-name{
+        font-size: 22px;
+        line-height: 26px;
+
+    }
+    .team__member-position{
+        line-height: 24px;
+    }
+}
+
+/*** LG - 992 ***/
+@media(min-width:992px){
+    body{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .section-title{
+        margin-bottom: 16px;
+        font-size: 50px;
+        line-height: 54px;
+
+    }
+
+    .team__member-position{
+        line-height: 26px;
+    }
+}
+
+/*** XL - 1200 ***/
+@media(min-width:1200px){
+    .section-title{
+        margin-bottom: 22px;
+        font-size: 60px;
+        line-height: 64px;
+    }
+
+    .section-lead{
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .team__member-name{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .container{
+        max-width: 1160px;
+    }
+}
+
+/*** XXL - 1400 ***/
+@media(min-width:1400px){
+    .container{
+        max-width: 1160px;
+    }
+}

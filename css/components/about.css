@@ -1,0 +1,54 @@
+/*** MOBILE ***/
+.about{
+    padding: 80px 0 100px;
+}
+
+.about .section-title{
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+
+.about figure{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.about .about__desc{
+    margin-bottom: 20px;
+}
+
+/*** SM - 576 
+@media(min-width:576px){
+}***/
+
+/*** MD - 768 ***/
+@media(min-width:768px){
+    .about{
+        padding: 100px 0 120px;
+    }
+}
+
+/*** LG - 992 ***/
+@media(min-width:992px){
+    .about .about-content{
+        padding: 34px 0;
+    }
+}
+
+/*** XL - 1200 ***/
+@media(min-width:1200px){
+    .about{
+        padding: 120px 0 166px;
+    }
+
+    .about .about__desc{
+        margin-bottom: 44px;
+        /*max-width: 513px;*/
+    }
+}
+
+/*** XXL - 1400 
+@media(min-width:1400px){
+}***/
+

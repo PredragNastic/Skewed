@@ -1,0 +1,120 @@
+/*** MOBILE ***/
+.hero{
+    position: relative;
+}
+
+.hero::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    /*left: 0;*/
+    right: 0;
+    height: 40px;
+
+    border-top: 40px solid transparent;
+    border-right: 100vw solid #fff;
+}
+
+.hero .carousel-item{
+    padding: 170px 0 320px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-slide-content{
+    max-width: 1000px;
+}
+
+.hero .hero-slide-content h2{
+    color: #FFFFFF;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.hero .hero-slide-content .hero-slide-text-mod{
+    color: #F7CC4B;
+}
+
+/*** indicators ***/
+.hero .carousel .hero-carousel-indicators{
+    bottom: 120px;
+}
+
+.hero .carousel .hero-carousel-indicators .hero-slide-btn{
+    margin-inline: 1rem;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    border-radius: 50%;
+
+    background-clip: content-box;
+    background-color: #FFFFFF;
+}
+
+
+/*** SM - 576 ***/
+@media(min-width:576px){
+    .hero .hero-slide-content h2{
+        font-size: 42px;
+        line-height: 58px;
+    }
+    
+        .hero .carousel .hero-carousel-indicators{
+        bottom: 140px;
+    }
+}
+
+/*** MD - 768 ***/
+@media(min-width:768px){
+    .hero::after{
+        height: 60px;
+        border-top: 60px solid transparent;
+    }
+
+    .hero .carousel-item{
+        padding: 150px 0 300px;
+        background-position: top left;
+    }
+
+    .hero .hero-slide-content h2{
+        font-size: 62px;
+        line-height: 78px;
+    }
+    
+        .hero .carousel .hero-carousel-indicators{
+        bottom: 160px;
+    }
+}
+
+/*** LG - 992 ***/
+@media(min-width:992px){
+    .hero::after{
+        height: 80px;
+        border-top: 80px solid transparent;
+    }
+
+    .hero .carousel .hero-carousel-indicators{
+        bottom: 180px;
+    }
+}
+
+/*** XL - 1200 ***/
+@media(min-width:1200px){
+    .hero .carousel-item{
+        padding: 275px 0 325px;
+    }
+
+    .hero .hero-slide-content h2{
+        font-size: 82px;
+        line-height: 98px;
+    }
+}
+/*** XXL - 1400 
+@media(min-width:1400px){
+}***/
